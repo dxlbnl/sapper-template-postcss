@@ -1,0 +1,15 @@
+
+:root {
+  --background: gray;
+  --accent-color: pink;
+}
+
+
+.pink {
+  --background: pink;
+  --accent-color: #FF0F6BFF;
+}
+
+.about {
+  --accent-color: #758EFFFF;
+}

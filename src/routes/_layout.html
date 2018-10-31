@@ -1,0 +1,18 @@
+<Nav segment={child.segment}/>
+
+<main>
+	<svelte:component this={child.component} {...child.props}/>
+</main>
+
+
+<style type='text/postcss'>
+	@import 'style/layout.css';
+</style>
+
+<script>
+	export default {
+		components: {
+			Nav: '../components/Nav.html'
+		}
+	};
+</script>

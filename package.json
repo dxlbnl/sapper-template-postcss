@@ -1,0 +1,35 @@
+{
+  "name": "TODO",
+  "description": "TODO",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30000902",
+    "compression": "^1.7.1",
+    "polka": "^0.5.1",
+    "sirv": "^0.2.0",
+    "svelte-preprocess": "^2.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "npm-run-all": "^4.1.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.3.0",
+    "sapper": "^0.24.0",
+    "style-loader": "^0.23.1",
+    "svelte": "^2.0.0",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0"
+  }
+}

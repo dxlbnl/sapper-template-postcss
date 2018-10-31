@@ -1,0 +1,11 @@
+
+@import 'style/base.css';
+
+main {
+  position: relative;
+  max-width: 56em;
+  background-color: var(--background);
+  padding: 2em;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
